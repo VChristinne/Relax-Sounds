@@ -11,6 +11,13 @@
 		420A830F2B53365700BFF3E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420A830E2B53365700BFF3E6 /* ContentView.swift */; };
 		420A83112B53365800BFF3E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 420A83102B53365800BFF3E6 /* Assets.xcassets */; };
 		420A83142B53365800BFF3E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 420A83132B53365800BFF3E6 /* Preview Assets.xcassets */; };
+		428F3A732B53529D00A81838 /* InitialStepsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428F3A722B53529D00A81838 /* InitialStepsView.swift */; };
+		428F3A782B53F4B900A81838 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 428F3A772B53F4B900A81838 /* Launch Screen.storyboard */; };
+		428F3A7A2B53F7B200A81838 /* SleepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428F3A792B53F7B200A81838 /* SleepView.swift */; };
+		428F3A7E2B54208500A81838 /* ComposerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428F3A7D2B54208500A81838 /* ComposerView.swift */; };
+		428F3A802B5420BA00A81838 /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428F3A7F2B5420BA00A81838 /* DiscoverView.swift */; };
+		428F3A832B54259300A81838 /* PlaylistModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428F3A822B54259300A81838 /* PlaylistModel.swift */; };
+		428F3A882B54348C00A81838 /* PlaylistCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428F3A872B54348C00A81838 /* PlaylistCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		420A830E2B53365700BFF3E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		420A83102B53365800BFF3E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		420A83132B53365800BFF3E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		428F3A722B53529D00A81838 /* InitialStepsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialStepsView.swift; sourceTree = "<group>"; };
+		428F3A772B53F4B900A81838 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		428F3A792B53F7B200A81838 /* SleepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepView.swift; sourceTree = "<group>"; };
+		428F3A7D2B54208500A81838 /* ComposerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposerView.swift; sourceTree = "<group>"; };
+		428F3A7F2B5420BA00A81838 /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
+		428F3A822B54259300A81838 /* PlaylistModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistModel.swift; sourceTree = "<group>"; };
+		428F3A872B54348C00A81838 /* PlaylistCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +65,9 @@
 		420A830B2B53365700BFF3E6 /* Relax Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				428F3A842B54310800A81838 /* ViewModels */,
+				428F3A812B54257500A81838 /* Models */,
+				428F3A6E2B533C0700A81838 /* Views */,
 				420A830C2B53365700BFF3E6 /* Relax_SoundsApp.swift */,
 				420A830E2B53365700BFF3E6 /* ContentView.swift */,
 				420A83102B53365800BFF3E6 /* Assets.xcassets */,
@@ -65,6 +82,50 @@
 				420A83132B53365800BFF3E6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		428F3A6E2B533C0700A81838 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				428F3A7B2B53F7BE00A81838 /* Start Screens */,
+				428F3A7C2B53F7CE00A81838 /* Sleep */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		428F3A7B2B53F7BE00A81838 /* Start Screens */ = {
+			isa = PBXGroup;
+			children = (
+				428F3A772B53F4B900A81838 /* Launch Screen.storyboard */,
+				428F3A722B53529D00A81838 /* InitialStepsView.swift */,
+			);
+			path = "Start Screens";
+			sourceTree = "<group>";
+		};
+		428F3A7C2B53F7CE00A81838 /* Sleep */ = {
+			isa = PBXGroup;
+			children = (
+				428F3A792B53F7B200A81838 /* SleepView.swift */,
+				428F3A7D2B54208500A81838 /* ComposerView.swift */,
+				428F3A7F2B5420BA00A81838 /* DiscoverView.swift */,
+				428F3A872B54348C00A81838 /* PlaylistCardView.swift */,
+			);
+			path = Sleep;
+			sourceTree = "<group>";
+		};
+		428F3A812B54257500A81838 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				428F3A822B54259300A81838 /* PlaylistModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		428F3A842B54310800A81838 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +186,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				428F3A782B53F4B900A81838 /* Launch Screen.storyboard in Resources */,
 				420A83142B53365800BFF3E6 /* Preview Assets.xcassets in Resources */,
 				420A83112B53365800BFF3E6 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +199,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				428F3A882B54348C00A81838 /* PlaylistCardView.swift in Sources */,
+				428F3A7E2B54208500A81838 /* ComposerView.swift in Sources */,
+				428F3A732B53529D00A81838 /* InitialStepsView.swift in Sources */,
 				420A830F2B53365700BFF3E6 /* ContentView.swift in Sources */,
+				428F3A7A2B53F7B200A81838 /* SleepView.swift in Sources */,
 				420A830D2B53365700BFF3E6 /* Relax_SoundsApp.swift in Sources */,
+				428F3A832B54259300A81838 /* PlaylistModel.swift in Sources */,
+				428F3A802B5420BA00A81838 /* DiscoverView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +265,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -254,7 +322,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -271,15 +339,18 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Relax Sounds/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "Relax\\ Sounds/Preview\\ Content";
 				DEVELOPMENT_TEAM = 7833GGFHR3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Relax-Sounds-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,6 +358,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.christinne.Relax-Sounds";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,15 +374,18 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Relax Sounds/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "Relax\\ Sounds/Preview\\ Content";
 				DEVELOPMENT_TEAM = 7833GGFHR3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Relax-Sounds-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,6 +393,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.christinne.Relax-Sounds";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
