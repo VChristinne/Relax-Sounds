@@ -89,7 +89,7 @@ struct InitialStepsView: View {
 								Button(action: {
 									print("Button Clicked")
 								}) {
-									NavigationLink(destination: SleepView().navigationBarBackButtonHidden(true)) {
+									NavigationLink(destination: DiscoverView().navigationBarBackButtonHidden(true)) {
 										Text("Start")
 											.font(.title3)
 											.fontWeight(.bold)

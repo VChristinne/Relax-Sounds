@@ -15,12 +15,16 @@ struct SleepView: View {
 					Image(systemName: "moon.stars.fill")
 					Text("Discover")
 				}
-			
+				.navigationTitle("Discover")
+				.navigationBarTitleDisplayMode(.large)
+
 			ComposerView()
 				.tabItem {
 					Image(systemName: "music.note")
 					Text("Composer")
 				}
+				.navigationTitle("Composer")
+				.navigationBarTitleDisplayMode(.large)
 		}
     }
 }
